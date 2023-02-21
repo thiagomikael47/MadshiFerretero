@@ -375,25 +375,6 @@ figure.effect-oscar:hover img {
   transform: scale(1.05);
 }
 
-.container__cards1 {
-  top: 100px;
-  position: relative;
-  height: 400px;
-  width: 1000px;
-  display: flex;
-  box-shadow: 25px 11px 25px 3px rgba(15, 61, 89, 0.54);
-  overflow: hidden;
-  border-radius: 50px 0;
-  filter: grayscale(0.2);
-  opacity: 0.8;
-  transition: all ease 0.8s;
-}
-
-.container__cards1:hover {
-  filter: grayscale(0);
-  opacity: 1;
-  transform: scale(1.05);
-}
 
 .container__imgservicio {
   height: 100%;
@@ -1381,12 +1362,13 @@ footer .wave#wave4 {
 		width: 100%;
 	}
   .container__productos{
-    padding: 80px 5px;
-    margin: 50px autoz;
+    padding: 100px 50px;
+    margin: 50px auto;
   }
   .container__cards {
+    margin-left: 20px;
     height: 800px;
-    width: 90%;
+    width: 450px;
     flex-direction: column;
   }
   .atencion{
@@ -1546,6 +1528,19 @@ footer .wave#wave4 {
   .carrusel-imagenes {
     margin: 50px auto;
   }
+  ..contenedor_logos_catalogo{
+    padding:  0;
+    position: relative;
+    margin: 100px auto;
+    width: 500px;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 500px 400px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
 }
 @media only screen and (min-width:500px) and (max-width:808px){
   .btn-wsp{
