@@ -311,7 +311,7 @@ figure.effect-oscar figcaption::before {
 }
 
 figure.effect-oscar h2 {
-	margin: 5% 0 15px 0;
+	margin: 2% 0 20px 0;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,100%,0);
