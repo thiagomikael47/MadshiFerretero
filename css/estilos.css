@@ -320,6 +320,7 @@ figure.effect-oscar h2 {
 
 figure.effect-oscar figcaption::before,
 figure.effect-oscar p {
+  font-size: 18px;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
