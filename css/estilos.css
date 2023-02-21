@@ -1528,7 +1528,7 @@ footer .wave#wave4 {
   .carrusel-imagenes {
     margin: 50px auto;
   }
-  ..contenedor_logos_catalogo{
+  .contenedor_logos_catalogo{
     padding:  0;
     position: relative;
     margin: 100px auto;
@@ -1540,7 +1540,6 @@ footer .wave#wave4 {
     overflow: hidden;
     text-align: center;
   }
-  
 }
 @media only screen and (min-width:500px) and (max-width:808px){
   .btn-wsp{
