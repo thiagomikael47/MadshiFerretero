@@ -1339,6 +1339,7 @@ footer .wave#wave4 {
   }
   .container__cards {
     margin: 50px 25px;
+    left: -20px;
     height: 800px;
     width: 400px;
     flex-direction: column;
