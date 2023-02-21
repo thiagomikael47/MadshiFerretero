@@ -264,6 +264,7 @@
 .grid figure h2 {
 	word-spacing: -0.15em;
 	font-weight: 300;
+  font-size: 1.7rem;
 }
 
 .grid figure h2 span {
@@ -277,7 +278,7 @@
 
 .grid figure p {
 	letter-spacing: 1px;
-	font-size: 68.5%;
+	font-size: 50.5%;
 }
 
 
@@ -320,7 +321,7 @@ figure.effect-oscar h2 {
 
 figure.effect-oscar figcaption::before,
 figure.effect-oscar p {
-  font-size: 18px;
+  font-size: 15px;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
