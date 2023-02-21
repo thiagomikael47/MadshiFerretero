@@ -857,41 +857,13 @@ footer .wave#wave4 {
 /* Nosotros Neda */
 /* CONTAINER ARETES START */
 
-
-.aretes{
-  background-image: url('../imagenes/productos.jpeg');
-}
-.contenedor_logos_catalogo{
-  padding:  150px 0;
-  position: relative;
-  margin: 100px auto;
-  width: 900px;
-  height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 800px 600px;
-  overflow: hidden;
-  text-align: center;
-}
-
-.catalogo_texto{
-  text-align: center;
-  height: 100px;
-  width: 100%;
-  background-color: rgba(34, 34, 34, 0.561);
-}
-
-.catalogo_texto h2{
-  color: #FFF;
-  padding: 20px 0;
-  font-size: 2.5rem;
-}
-
 .container__aretes {
   position: relative;
   margin: 50px auto;
   padding: 0 30px;
+  width: 100%;
 }
+
 
 .contenedor_card2_profile {
   display: flex;
@@ -1362,11 +1334,11 @@ footer .wave#wave4 {
 		width: 100%;
 	}
   .container__productos{
-    padding: 100px 50px;
+    padding: 100px 25px;
     margin: 50px auto;
   }
   .container__cards {
-    margin-left: 20px;
+    margin-left: 0;
     height: 800px;
     width: 450px;
     flex-direction: column;
@@ -1524,21 +1496,8 @@ footer .wave#wave4 {
     font-weight: 500;
     color: #000000;
   }
-  
   .carrusel-imagenes {
     margin: 50px auto;
-  }
-  .contenedor_logos_catalogo{
-    padding:  0;
-    position: relative;
-    margin: 100px auto;
-    width: 500px;
-    height: 400px;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 500px 400px;
-    overflow: hidden;
-    text-align: center;
   }
 }
 @media only screen and (min-width:500px) and (max-width:808px){
