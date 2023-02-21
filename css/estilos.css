@@ -1341,7 +1341,7 @@ footer .wave#wave4 {
     margin: 50px 25px;
     left: -20px;
     height: 800px;
-    width: 400px;
+    width: 380px;
     flex-direction: column;
   }
   .atencion{
@@ -1354,7 +1354,7 @@ footer .wave#wave4 {
   }
 
   .container__imgservicio {
-    height: 400px;
+    height: 380px;
     width: 400px;
   }
   
@@ -1365,7 +1365,7 @@ footer .wave#wave4 {
   }
   
   .conatiner__servicio {
-    width: 100%;
+    width: 380px;
     height: 400px;
     margin: 10px;
     padding-top: 10px;
