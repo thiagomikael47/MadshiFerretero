@@ -1334,13 +1334,13 @@ footer .wave#wave4 {
 		width: 100%;
 	}
   .container__productos{
-    padding: 100px 25px;
+    padding: 100px 0;
     margin: 50px auto;
   }
   .container__cards {
-    margin-left: 0;
+    margin: 50px 25px;
     height: 800px;
-    width: 450px;
+    width: 400px;
     flex-direction: column;
   }
   .atencion{
