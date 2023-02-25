@@ -68,7 +68,7 @@
 }
 
 .menu__link {
-  color: #f10d0de7;
+  color: #fff;
   text-decoration: none;
   position: relative;
   display: block;
@@ -76,6 +76,9 @@
   margin: 0 1rem;
   font-size: 1.4rem;
   background-repeat: no-repeat;
+}
+.menu__link:hover {
+  color: #c6c6c6;
 }
 
 .menu__link:before {
@@ -85,7 +88,7 @@
   left: 0;
   width: 0;
   height: .2rem;
-  background: #f10d0de7;
+  background: #c6c6c6;
   transition: .5s;
 }
 
@@ -96,22 +99,24 @@
   right: 0;
   width: 0;
   height: .2rem;
-  background: #f10d0de7;
+  background: #c6c6c6;
   transition: .5s;
 }
 
 .menu__item :hover .menu__link {
-  color: #f10d0de7;
+  color: #c6c6c6;
 }
 
 .menu__item:hover .menu__link:before {
   width: 50%;
   transform: translate(100%);
+  color: #c6c6c6;
 }
 
 .menu__item:hover .menu__link::after {
   width: 50%;
   transform: translate(-100%);
+  color: #c6c6c6;
 }
 
 .fa-whatsapp {
